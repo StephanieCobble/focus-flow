@@ -1,0 +1,43 @@
+  .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      justify-content: center;
+      margin-top: 60px;
+      margin-bottom: 260px;
+  }
+
+  .subbutton{
+    background-color: #8e5994;
+    margin-top: 10%;
+    color: whitesmoke;
+    --bs-btn-border-color: #dbc3de;
+  }
+
+  .subbutton:hover, #subbutton:active {
+    background-color: #9f87a2;
+  }
+
+  .genre-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid rgb(8, 8, 8);
+      border-radius: 5px;
+      padding: 1rem;
+  }
+
+  .genre-box h2 {
+      margin: 0;
+  }
+
+  .track-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .track-list li {
+      margin: 10px 0;
+  }
+
